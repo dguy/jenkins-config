@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.configfiles.GlobalConfigFiles plugin="config-file-provider@2.15.7">
+  <configs class="sorted-set">
+    <comparator class="org.jenkinsci.plugins.configfiles.GlobalConfigFiles$1"/>
+    <org.jenkinsci.plugins.managedscripts.ScriptConfig plugin="managed-scripts@1.3">
+      <id>17059a35-d252-4302-8c01-37cf0123bde9</id>
+      <name>Hello World</name>
+      <comment></comment>
+      <content>echo &quot;hello world tooo&quot;</content>
+      <providerId>org.jenkinsci.plugins.managedscripts.ScriptConfig</providerId>
+      <args/>
+    </org.jenkinsci.plugins.managedscripts.ScriptConfig>
+    <org.jenkinsci.plugins.managedscripts.ScriptConfig plugin="managed-scripts@1.3">
+      <id>358d798a-7111-40b4-9a13-faeaf754f98f</id>
+      <name>Build Step</name>
+      <comment></comment>
+      <content>echo &quot;hello world2&quot;</content>
+      <providerId>org.jenkinsci.plugins.managedscripts.ScriptConfig</providerId>
+      <args/>
+    </org.jenkinsci.plugins.managedscripts.ScriptConfig>
+  </configs>
+</org.jenkinsci.plugins.configfiles.GlobalConfigFiles>
