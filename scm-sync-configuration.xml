@@ -7,5 +7,6 @@
   <commitMessagePattern>[message]</commitMessagePattern>
   <manualSynchronizationIncludes>
     <include>org.jenkinsci.plugins*.xml</include>
+    <include>users/*/config.xml</include>
   </manualSynchronizationIncludes>
 </hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>
